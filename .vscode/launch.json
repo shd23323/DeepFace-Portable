@@ -1,0 +1,17 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "运行 DeepFace (main.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "DEEPFACE_HOME": "${workspaceFolder}/models",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  ]
+}
